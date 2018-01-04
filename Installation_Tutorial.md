@@ -12,5 +12,16 @@ tack is an opinionated script to quickly create an OpenStack development environ
 
 #### Installation
 
+1. First we need to make a new user 'stack'.
 
+
+2. After we made the new user we need to give that user sudo privileges. When have to change ourself to become the stack user.
+
+3. Now we can start downloading the DevStack. After that we change to the devstack directory.
+
+4. In this devstack directory we need to create a configurationfile named ' local.conf'. We need to edit this file with the following configuragion in the screenshot below. Remember to chance the password!
+
+5. When we are done configuring we just need to run the stack.sh script and the installation will start. This process can take somewhere between 15-20 minutes.
+
+6. After the script has finished the installation we can browse to the ip of the virtual machine and we should see the following screen:
 
