@@ -14,25 +14,34 @@ tack is an opinionated script to quickly create an OpenStack development environ
 
 1. First we need to make a new user 'stack'.
 
-![alt text][Devstack-install-pictures/DevStack_Install_1.png]
+![alt text][image1]
 
 2. After we made the new user we need to give that user sudo privileges. When have to change ourself to become the stack user.
 
-![alt text][Devstack-install-pictures/DevStack_Install_2.png]
+![alt text][image2]
 
 3. Now we can start downloading the DevStack. After that we change to the devstack directory.
 
-![alt text][Devstack-install-pictures/DevStack_Install_3.png]
+![alt text][image3]
 
 4. In this devstack directory we need to create a configurationfile named ' local.conf'. We need to edit this file with the following configuragion in the screenshot below. Remember to chance the password!
 
-![alt text][Devstack-install-pictures/DevStack_Install_4.png]
+![alt text][image4]
 
 5. When we are done configuring we just need to run the stack.sh script and the installation will start. This process can take somewhere between 15-20 minutes.
 
-![alt text][Devstack-install-pictures/DevStack_Install_5.png]
+![alt text][image5]
 
 6. After the script has finished the installation we can browse to the ip of the virtual machine and we should see the following screen:
 
-![alt text][Devstack-install-pictures/DevStack_Install_6.png]
+![alt text][image6]
+
+
+[image1]: https://github.com/jorik-seldeslachts/GitTest/blob/master/Devstack-install-pictures/DevStack_Install_1.png
+[image2]: https://github.com/jorik-seldeslachts/GitTest/blob/master/Devstack-install-pictures/DevStack_Install_2.png
+[image3]: https://github.com/jorik-seldeslachts/GitTest/blob/master/Devstack-install-pictures/DevStack_Install_3.png
+[image4]: https://github.com/jorik-seldeslachts/GitTest/blob/master/Devstack-install-pictures/DevStack_Install_4.png
+[image5]: https://github.com/jorik-seldeslachts/GitTest/blob/master/Devstack-install-pictures/DevStack_Install_5.png
+[image6]: https://github.com/jorik-seldeslachts/GitTest/blob/master/Devstack-install-pictures/DevStack_Install_6.png
+
 
